@@ -15,7 +15,7 @@ aux = consultaMensual(paises, fechas, 'deaths')
 df = clean(aux, mes)
 printDf(df, paises, 'deaths')
 
-dfBrazil = consultaDiaria('Brazil','confirmed','2020-10-01T00:00:00Z','2021-01-31T00:00:00Z')
+dfBrazil = consultaDiaria('Brazil','confirmed','2020-10-01T00:00:00Z','2022-05-31T00:00:00Z')
 
 dfBrazil = cleanDf(dfBrazil)
 
